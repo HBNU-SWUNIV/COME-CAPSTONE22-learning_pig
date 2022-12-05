@@ -20,6 +20,7 @@
 
   - ### System Requirements
     - OOO
+    ![KakaoTalk_20221205_235032828](https://user-images.githubusercontent.com/102698011/205670757-59b35e90-f7e7-4275-8a34-ceaed012c9da.png)
     - OOO
     
 ## Case Study
@@ -28,5 +29,8 @@
   
 ## Conclusion
   - ### OOO
+  ![ssssss2111``](https://user-images.githubusercontent.com/102698011/205670279-c93ad452-94ea-4941-b2d5-866da4b4e432.PNG)
+
+  
   - ### OOO
   
