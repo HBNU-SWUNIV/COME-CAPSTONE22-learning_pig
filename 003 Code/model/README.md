@@ -58,7 +58,6 @@ python detect.py --conf-thres  --iou-thres  --source --weights --agnostic-nms
 ```
 python main.py --source  --yolo_model  --agnostic-nms --show-browser
 ```
-   
 ###### --source : 영상의 주소
 ###### --yolo_model : 완성된 모델의 경로
 ###### --show-browser : flask를 통해 웹으로 전송  
