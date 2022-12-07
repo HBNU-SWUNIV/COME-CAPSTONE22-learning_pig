@@ -4,8 +4,10 @@
     - StrongSORT : <https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet>
 
 ## 1. YOLOv5s 모델을 사용하여 돼지 데이터셋을 학습
-- Web에서 webview 사용하기 위해 **webviewx** 라이브러리 사용
+- YOLOv5s 모델 사용
+<img src ="https://user-images.githubusercontent.com/102698011/206202341-b8763b23-5c4f-4fd9-9af1-843eb3ef4bb1.PNG" width="50%" height="50%">
 
+  
 **main.dart**
 ```
 WebViewX(
@@ -43,32 +45,29 @@ def distance_frames(prev_bbox, cur_bbox):
                             else:
                                dist_dict[id] +=dist
 ```
-## 3. pubspec.yamlㄴ
-- Flutter는 사용하는 라이브러리를 pubspec.yaml 파일에 추가
+## 3. 모델 실행법
+- 학습을 통한 완성된 데이터셋이 필요
 
-### 3-1. 직접 추가하는 방법
-**pubspec.yaml**
+### 3-1. 객체 탐지(detection) 실행
+**detect.py**
 ```
-dependencies:
-    flutter:
-        sdk: flutter
+python detect.py --conf-thres  --iou-thres  --source --weights --agnostic-nms
+```
+###### --source : 영상,이미지의 주소
+###### --weights : 학습을 통해 만들어진 best.pt
+###### --iou-thres : iou 임계치 (NMS에 대한)
+###### --conf-thres : conf 임계치 (NMS에 대한)
+###### --agnostic-nms : 객체의 바운딩 박스만을 찾고 싶을때 사용
 
-    csv: ^5.0.1
-    http: ^0.13.5
-    webviewx: ^0.2.1
-```
-- 사용할 라이브러리 버전과 함께 직접 추가
 
-### 3-2. Terminal로 추가하는 방법
-**Terminal**
+### 3-2. 객체 추적(tracking) 실행
+**main.py**
 ```
->> flutter pub add http
->> flutter pub add csv
->> flutter pub add webviewx
+python main.py --source  --yolo_model  --agnostic-nms --show-browser
 ```
-- Terminal을 이용하면 가장 최신 버전으로 자동으로 추가
-```
->> flutter pub get
-```
-- pub add 후에 pub get 해줘야 변화가 반영됨
+   
+###### --source : 영상의 주소
+###### --yolo_model : 완성된 모델의 경로
+###### --show-browser : flask를 통해 웹으로 전송  
+
 
