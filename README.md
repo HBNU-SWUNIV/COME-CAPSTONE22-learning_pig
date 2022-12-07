@@ -25,11 +25,14 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=flat-square&logo=Pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=Flutter&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=Flask&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/> 
 
   - ### 시스템 구성도
-    - 모델 도면
-    
     ![KakaoTalk_20221205_235032828](https://user-images.githubusercontent.com/102698011/205670757-59b35e90-f7e7-4275-8a34-ceaed012c9da.png)
-    - OOO
-    - ![image](https://user-images.githubusercontent.com/113576261/206102140-8b87d09a-db8a-484a-9838-ddef945a6241.png)
+  - ### 객체탐지, 추적모델
+  
+    ![ sss111 ](https://user-images.githubusercontent.com/102698011/206099267-9a2f1c5e-adfa-43d6-9e97-5a1e0c62450e.PNG)
+     ###### 이미지 출처:<https://medium.com/@shahrullo/visual-perception-for-self-driving-cars-part-2-6be5a1ca34bd>
+      - YOLOv5s와 StrongSORT를 통해 객체탐지, 추적을 진행함
+  - ### 이미지     
+    ![image](https://user-images.githubusercontent.com/113576261/206102140-8b87d09a-db8a-484a-9838-ddef945a6241.png)
 
     
 ## Case Study
