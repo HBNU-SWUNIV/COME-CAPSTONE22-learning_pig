@@ -36,7 +36,7 @@ Future<dynamic> downloadCsv() async {
 ## 3. pubspec.yaml
 - ### Flutter는 사용하는 라이브러리를 pubspec.yaml 파일에 추가
 
-### 3-1. 직접 추가하는 방법
+#### 3-1. 직접 추가하는 방법
 **pubspec.yaml**
 ```
 dependencies:
@@ -49,7 +49,7 @@ dependencies:
 ```
 - 사용할 라이브러리 버전과 함께 직접 추가
 
-### 3-2. Terminal로 추가하는 방법
+#### 3-2. Terminal로 추가하는 방법
 **Terminal**
 ```
 >> flutter pub add http
