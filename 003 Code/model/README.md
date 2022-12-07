@@ -1,7 +1,9 @@
 # model
-- Yolov5 객체 탐지, StrogSORT 객체 추적 
+- Yolov5 객체 탐지, StrongSORT 객체 추적 
+    - YOLOv5 : <https://github.com/ultralytics/yolov5>
+    - StrongSORT : <https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet>
 
-## 1. 실시간 돈사 영상 가져오기
+## 1. YOLOv5s 모델을 사용하여 돼지 데이터셋을 학습
 - Web에서 webview 사용하기 위해 **webviewx** 라이브러리 사용
 
 **main.dart**
@@ -15,24 +17,32 @@ WebViewX(
 )
 ```
 
-## 2. 돼지 활동량 표 가져오기
-- CSV 파일을 다운로드 받아 Datatable로 변환
+## 2. StrongSort 활용하여 ID,Distance 구하기
 
-**main.dart**
-```
-Future<dynamic> downloadCsv() async {
-    const url = "http://1.226.102.182:7070/output/test.csv";
+**track.py**
+- track.py에 전프레임과 현재프레임의 ID의 Distance 구함
 
-    try {
-        final Uri uri = Uri.parse(url);
-        var csvFile = await http.read(uri);
-        return const CsvToListConverter().convert(csvFile, eol: "\n");
-    } catch(e) {
-        print('download error:$e');
-    }
-}
+```python
+def distance_frames(prev_bbox, cur_bbox):
+    prev_x = (prev_bbox[0]+prev_bbox[2])/2
+    prev_y = (prev_bbox[3]+prev_bbox[1])/2
+
+    cur_x = (cur_bbox[0]+cur_bbox[2])/2
+    cur_y = (cur_bbox[3]+cur_bbox[1])/2
+    dist = math.sqrt(math.pow(prev_x - cur_x, 2) + math.pow(prev_y - cur_y, 2))
+    return dist
 ```
 
+- ID와 Distance를 딕셔너리 형태로 변환하여 저장
+```python
+ if frame_idx >= 1 and id in prev:
+                            dist = distance_frames(prev[id], cur[id])
+
+                            if id not in dist_dict:
+                               dist_dict[id] = dist
+                            else:
+                               dist_dict[id] +=dist
+```
 ## 3. pubspec.yaml
 - Flutter는 사용하는 라이브러리를 pubspec.yaml 파일에 추가
 
