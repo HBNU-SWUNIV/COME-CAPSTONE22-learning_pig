@@ -27,6 +27,7 @@
   - ### Description
   
     - 실제 돈사에서 촬영된 돼지 영상을 활용해 약 3000장 이상의 이미지 레이블링(데이터셋 구축)
+    
     ![image](https://user-images.githubusercontent.com/66303929/206100652-ae54633b-0069-4b17-8966-0f661cd4bc67.png)
 
     - YOLOv5와 DeepSort 학습 모델을 통해 돼지 탐지 및 추적
