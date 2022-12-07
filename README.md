@@ -26,13 +26,32 @@
 
   - ### 시스템 구성도
     ![KakaoTalk_20221205_235032828](https://user-images.githubusercontent.com/102698011/205670757-59b35e90-f7e7-4275-8a34-ceaed012c9da.png)
+  - ### 시스템 구성도 요구사항
+    - 영상 촬영에 필요한 장비 -> CCTV와 녹화기
+    - 객체탐지, 추적 모델 -> YOLO, DeepSort 이용
+    - 결과값을 저장할 데이터베이스 -> MySQL
+    - DB와 모델, 앱 등과 연계를 위한 서버 필요 -> Flak를 통한 REST API
+    - 역할을 분담하여 진행 후 서로 간의 연계, 접속 필요 -> 포트포워딩으로 외부접속
+    
+  - ### 구매한 카메라와 녹화기   
+    ![image](https://user-images.githubusercontent.com/113576261/206102140-8b87d09a-db8a-484a-9838-ddef945a6241.png)
+    ![image](https://user-images.githubusercontent.com/113576261/206110401-74942226-6ce9-404b-a916-d7ab20960905.png)
+
   - ### 객체탐지, 추적모델
   
     ![ sss111 ](https://user-images.githubusercontent.com/102698011/206099267-9a2f1c5e-adfa-43d6-9e97-5a1e0c62450e.PNG)
      ###### 이미지 출처:<https://medium.com/@shahrullo/visual-perception-for-self-driving-cars-part-2-6be5a1ca34bd>
-      - YOLOv5s와 StrongSORT를 통해 객체탐지, 추적을 진행함
-  - ### 이미지     
-    ![image](https://user-images.githubusercontent.com/113576261/206102140-8b87d09a-db8a-484a-9838-ddef945a6241.png)
+      - YOLOv5s와 StrongSORT를 통해 객체탐지, 추적
+      
+  - ### 데이터베이스
+    - ![image](https://user-images.githubusercontent.com/113576261/206110995-722c9a93-c58d-4720-85c1-a8af175557b1.png)
+    - 저장을 위한 테이블 구성, SQL 등
+  
+  - ### Routing과 서버
+    - ![image](https://user-images.githubusercontent.com/113576261/206110650-b926914c-1e94-44fe-af9e-7a3df46a90f3.png)
+    - ![image](https://user-images.githubusercontent.com/113576261/206110628-c28d3e19-8009-4c3b-b3fc-6e64120a5124.png)
+    - ![image](https://user-images.githubusercontent.com/113576261/206111431-802cc6f1-0b87-4707-80a2-07219354c738.png)
+    - DB와 앱, 모델 간의 연계를 위해 포트포워딩, 서버 등
 
     
 ## Case Study
