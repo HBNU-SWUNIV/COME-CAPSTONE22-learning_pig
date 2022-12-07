@@ -24,7 +24,7 @@
 ## System Design
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=flat-square&logo=Pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=Flutter&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=Flask&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/> 
 
-  - ### System Requirements
+  - ### 시스템 구성도
     - 모델 도면
     
     ![KakaoTalk_20221205_235032828](https://user-images.githubusercontent.com/102698011/205670757-59b35e90-f7e7-4275-8a34-ceaed012c9da.png)
