@@ -16,7 +16,8 @@
   EX) 축산 ICT 장치 기준설정 및 빅데이터 활용, 젖소 건강 모니터링 기술 연구, 국가동물건강감시시스템 
 
 - ### 제시하는 해결책
-  - 
+  - 실제 돈사를 촬영한 영상데이터에서 아픈 돼지를 레이블링하여 모델에 적용
+  - 사용자(사양관리자)가 활동성이 저하된 돼지와 돼지의 결집 정도를 파악할 수 있도록 하는 앱 및 웹
   
 ## System Design
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=flat-square&logo=Pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=Flutter&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=Flask&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/> 
