@@ -2,7 +2,7 @@
 - Flutter 사용하여 개발
 
 ## 1. 실시간 돈사 영상 가져오기
-- Web에서 webview 사용하기 위해 **webviewx** 라이브러리 사용
+- ### Web에서 webview 사용하기 위해 **webviewx** 라이브러리 사용
 
 **main.dart**
 ```
@@ -16,7 +16,7 @@ WebViewX(
 ```
 
 ## 2. 돼지 활동량 표 가져오기
-- CSV 파일을 다운로드 받아 Datatable로 변환
+- ### CSV 파일을 다운로드 받아 Datatable로 변환
 
 **main.dart**
 ```
@@ -34,7 +34,7 @@ Future<dynamic> downloadCsv() async {
 ```
 
 ## 3. pubspec.yaml
-- Flutter는 사용하는 라이브러리를 pubspec.yaml 파일에 추가해줘야함(추가 후 import)
+- ### Flutter는 사용하는 라이브러리를 pubspec.yaml 파일에 추가
 
 ### 3-1. 직접 추가하는 방법
 **pubspec.yaml**
