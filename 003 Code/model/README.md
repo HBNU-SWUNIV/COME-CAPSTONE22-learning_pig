@@ -43,7 +43,7 @@ def distance_frames(prev_bbox, cur_bbox):
                             else:
                                dist_dict[id] +=dist
 ```
-## 3. pubspec.yaml
+## 3. pubspec.yamlㄴ
 - Flutter는 사용하는 라이브러리를 pubspec.yaml 파일에 추가
 
 ### 3-1. 직접 추가하는 방법
