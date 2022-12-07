@@ -7,17 +7,10 @@
 - YOLOv5s 모델 사용
 <img src ="https://user-images.githubusercontent.com/102698011/206202341-b8763b23-5c4f-4fd9-9af1-843eb3ef4bb1.PNG" width="50%" height="50%">
 
-  
-**main.dart**
-```
-WebViewX(
-    initialContent: "http://39.125.58.48:5001",
-    initialSourceType: SourceType.url,
-    width: MediaQuery.of(context).size.width,
-    height: 500,
-    onWebViewCreated: (controller) => webViewXController = controller,
-)
-```
+-총 4개의 클래스(standing, belly, side, sitting)로 레이블링 후 데이터셋 구축 후 학습 결과
+
+<img src ="https://user-images.githubusercontent.com/102698011/206209424-d3d6d88c-dee4-47ba-8dd9-6069ea697319.PNG" width="50%" height="50%">
+
 
 ## 2. StrongSort 활용하여 ID,Distance 구하기
 
@@ -46,7 +39,7 @@ def distance_frames(prev_bbox, cur_bbox):
                                dist_dict[id] +=dist
 ```
 ## 3. 모델 실행법
-- 학습을 통한 완성된 데이터셋이 필요
+- 학습을 통한 완성된 모델이 필요
 
 ### 3-1. 객체 탐지(detection) 실행
 **detect.py**
