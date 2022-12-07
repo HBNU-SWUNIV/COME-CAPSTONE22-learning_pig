@@ -7,12 +7,14 @@
 
 ## <u>Teamate</u> Project Background
 - ### 필요성
-  - 돼지를 키울 때 가장 중요한 것이 집단 폐사를 막는 것인데, 그를 위해 돈사의 지속적인 관찰을 축산 산업의 특성(분뇨, 악취, 사육두수 등)때문에 사람이 직접 지속적인 내, 외부적인 환경을 관리할 수 없다.
-  - 돼지고기 수급 전망은 코로나 19로 인한 수요 증가로 인한 농장 당 사육 수 증가, 육류 수입량 증가 등의 요인으로 도매가격이 내려가고, 그에 따라 가격경쟁이 더욱 필요해졌다.
+  - 돼지를 키울 때 가장 중요한 것이 집단 폐사를 막는 것인데, 그를 위해 돈사의 지속적인 관찰을 축산 산업의 특성(분뇨, 악취, 사육두수 등)때문에 사람이 직접 지속적인 내, 외부적인 환경을 관리할 수 없다
+  - 돼지고기 수급 전망은 코로나 19로 인한 수요 증가로 인한 농장 당 사육 수 증가, 육류 수입량 증가 등의 요인으로 도매가격이 내려가고, 그에 따라 가격경쟁이 더욱 필요해졌다
 
 - ### 기존 해결책의 문제점
-  - OOO
-  - OOO
+  - 질병 등으로 인한 아픈 돼지 발생 시에 사람이 직접 개체마다 검사를 진행하거나 돈사 또는 돈칸에 있는 모든 개체에게 백신 투여를 해야하기 때문에 많은 비용이 요구된다
+  - 자돈 돈사처럼 사육두수가 많은 경우 검사 시에 돈칸 내에서 놓치는 개체가 발생할 수 있다
+  - 기존 선행 연구들이 실제 돈사 사육 운영, 관리등에 바로 적용할 수 있는 방안이 없음
+  EX) 축산 ICT 장치 기준설정 및 빅데이터 활용, 젖소 건강 모니터링 기술 연구, 국가동물건강감시시스템
   
 ## System Design
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=flat-square&logo=Pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=Flutter&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=Flask&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/> 
