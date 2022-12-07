@@ -13,6 +13,10 @@
 - ### 기존 해결책의 문제점
   - 사람이 직접 개체 하나하나를 검사하거나 돈사에 있는 모든 개체에게 예방접종을 하는 등의 많은 비용이 요구되는 해결책이다.
   - 선행된 연구들이 실제 돈사에서 자돈 사육 운영, 관리 시에 바로 사용할 수 있는 방안이 없다.
+  EX) 축산 ICT 장치 기준설정 및 빅데이터 활용, 젖소 건강 모니터링 기술 연구, 국가동물건강감시시스템 
+
+- ### 제시하는 해결책
+  - 
   
 ## System Design
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=flat-square&logo=Pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=Flutter&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=Flask&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/> 
