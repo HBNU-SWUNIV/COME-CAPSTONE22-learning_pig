@@ -22,6 +22,8 @@
     
     ![KakaoTalk_20221205_235032828](https://user-images.githubusercontent.com/102698011/205670757-59b35e90-f7e7-4275-8a34-ceaed012c9da.png)
     - OOO
+    - ![image](https://user-images.githubusercontent.com/113576261/206102140-8b87d09a-db8a-484a-9838-ddef945a6241.png)
+
     
 ## Case Study
   - ### Description
