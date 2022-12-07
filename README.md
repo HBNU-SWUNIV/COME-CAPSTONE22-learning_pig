@@ -50,7 +50,6 @@
   - ### Routing과 서버
     - ![image](https://user-images.githubusercontent.com/113576261/206110650-b926914c-1e94-44fe-af9e-7a3df46a90f3.png)
     - ![image](https://user-images.githubusercontent.com/113576261/206110628-c28d3e19-8009-4c3b-b3fc-6e64120a5124.png)
-    - ![image](https://user-images.githubusercontent.com/113576261/206111431-802cc6f1-0b87-4707-80a2-07219354c738.png)
     - DB와 앱, 모델 간의 연계를 위해 포트포워딩, 서버 등
 
     
