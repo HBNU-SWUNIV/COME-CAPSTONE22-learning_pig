@@ -33,9 +33,10 @@
   
   
 ## Conclusion
-  - ### OOO
+  - 학습 데이터 셋 생성 시에 사용하지 않았던 실시간 영상에 적용시킨 결과
   ![ssssss2111``](https://user-images.githubusercontent.com/102698011/205670279-c93ad452-94ea-4941-b2d5-866da4b4e432.PNG)
 
   
-  - ### OOO
+  - 탐지한 돼지를 Bbox로 표시하고, Bbox 상단에 돼지의 자세와 정확도에 대해서 표시
+  - 70~80% 정도의 
   
