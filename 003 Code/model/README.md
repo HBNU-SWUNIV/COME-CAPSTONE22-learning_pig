@@ -15,7 +15,7 @@
 ## 2. StrongSort 활용하여 ID,Distance 구하기
 
 **track.py**
-- track.py에 이전프레임과 현재프레임의 ID, Distance 구함
+- track.py에 이전프레임과 현재프레임의 bbox 차이를 통해 I별로 Distance 구함
 
 ```python
 def distance_frames(prev_bbox, cur_bbox):
