@@ -58,6 +58,6 @@ dependencies:
 ```
 - Terminal을 이용하면 가장 최신 버전으로 자동으로 추가
 ```
-flutter pub get
+>> flutter pub get
 ```
 - pub add 후에 pub get 해줘야 변화가 반영됨
