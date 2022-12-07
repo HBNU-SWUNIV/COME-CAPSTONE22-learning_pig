@@ -1,5 +1,7 @@
 ### API Server
-  - Flask를 사용하여 개발
+  - Flask를 사용
+  - app.start가 실행 중이어야 send.py 동작
+  - 포트에러 발생 시 재실행
   
   ### 1. 웹에 DB데이터 보여주기
   - app.start_33번째 줄
@@ -21,6 +23,7 @@
   - app.start_42번째 줄
   - IP 뒤에 "/output/test.csv"를 치면 실행
   - Flask에 포함된 sendfile()을 사용하여 전송 
+  - 정적파일을 전송하기에 writer함수 에러시에 빈파일 전송
   
 ```
 @app.route("/output/test.csv", methods=['GET'])
