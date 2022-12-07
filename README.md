@@ -34,9 +34,8 @@
     - 역할을 분담하여 진행 후 서로 간의 연계, 접속 필요 -> 포트포워딩으로 외부접속
     
   - ### 구매한 카메라와 녹화기   
-    ![image](https://user-images.githubusercontent.com/113576261/206102140-8b87d09a-db8a-484a-9838-ddef945a6241.png)
-    ![image](https://user-images.githubusercontent.com/113576261/206110401-74942226-6ce9-404b-a916-d7ab20960905.png)
-
+    <img src ="https://user-images.githubusercontent.com/102698011/206173539-ab55a744-69f4-4a91-8051-0be66950f814.PNG" width="30%" height="50%"> <img src ="https://user-images.githubusercontent.com/102698011/206174416-ef781270-6daf-41b3-b4ff-5e5cb2b34824.PNG" width="50%" height="40%">
+ 
   - ### 객체탐지, 추적모델
   
     ![ sss111 ](https://user-images.githubusercontent.com/102698011/206099267-9a2f1c5e-adfa-43d6-9e97-5a1e0c62450e.PNG)
@@ -44,12 +43,12 @@
       - YOLOv5s와 StrongSORT를 통해 객체탐지, 추적
       
   - ### 데이터베이스
-    - ![image](https://user-images.githubusercontent.com/113576261/206110995-722c9a93-c58d-4720-85c1-a8af175557b1.png)
+    <img src ="https://user-images.githubusercontent.com/102698011/206174995-670bef8a-64c0-4ebd-b5f1-413ed7e92fda.PNG" width="50%" height="50%">
+    
     - 저장을 위한 테이블 구성, SQL 등
   
   - ### Routing과 서버
-    - ![image](https://user-images.githubusercontent.com/113576261/206110650-b926914c-1e94-44fe-af9e-7a3df46a90f3.png)
-    - ![image](https://user-images.githubusercontent.com/113576261/206110628-c28d3e19-8009-4c3b-b3fc-6e64120a5124.png)
+    <img src ="https://user-images.githubusercontent.com/102698011/206176142-be643416-776b-4907-a170-63deda565e36.PNG" width="50%" height="50%"> <img src ="https://user-images.githubusercontent.com/102698011/206176145-6eb08d4f-050b-485d-88e0-dbf88122f467.PNG" width="40%" height="50%">
     - DB와 앱, 모델 간의 연계를 위해 포트포워딩, 서버 등
 
     
@@ -67,11 +66,13 @@
     - 포트포워딩을 통해 각자의 서버에서 데이터 전달
     
 ## Conclusion
-  - ### 최종 결과물
+ 
   ![ssssss2111``](https://user-images.githubusercontent.com/102698011/205670279-c93ad452-94ea-4941-b2d5-866da4b4e432.PNG)
-
-  
-  
+  - ### 최종 결과물
+    - 돈사의 실시관 영상과 데이터(시간,이동거리,ID)를 볼수 있음
+    - 표에는 DIstance 낮은 순으로 보여준다
+    - 파란색 버튼을 클릭시 표가 실시간으로 재정렬
+    
   - ### 결과물의 문제점
     - 다른 돈사에서 기존의 모델을 적용하려면 추가 라벨링이 필요
     - 객체가 사물에 가려지거나 겹치는 현상에 따른 새로운 ID할당을 받으면서 ID별로 정확한 돼지의 활동량을 검출하기 어려움
