@@ -29,6 +29,7 @@ def distance_frames(prev_bbox, cur_bbox):
 ```
 
 - ID와 Distance를 딕셔너리 형태로 변환하여 저장
+
 ```python
  if frame_idx >= 1 and id in prev:
                             dist = distance_frames(prev[id], cur[id])
